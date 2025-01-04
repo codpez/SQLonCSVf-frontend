@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Constantes
-    const API_URL = 'sqloncsv.azurewebsites.net';
+    const API_URL = 'https://sqloncsv.azurewebsites.net';
     const uploadArea = document.getElementById('upload-area');
     const fileInput = document.getElementById('csv-file');
     const fileInfo = document.getElementById('file-info');
