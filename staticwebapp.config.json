@@ -1,9 +1,16 @@
 {
-    "routes": [
-      {
-        "route": "/api/*",
-        "rewrite": "https://sqloncsv.azurewebsites.net/api/*"
-      }
-    ]
-  }
-  
+  "routes": [
+    {
+      "route": "/csv/*",
+      "rewrite": "https://sqloncsv.azurewebsites.net/csv/*"
+    },
+    {
+      "route": "/query",
+      "rewrite": "https://sqloncsv.azurewebsites.net/query"
+    },
+    {
+      "route": "/logs",
+      "rewrite": "https://sqloncsv.azurewebsites.net/logs"
+    }
+  ]
+}
